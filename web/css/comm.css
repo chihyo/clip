@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/*@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);*/
+
+
+body {
+  padding-top:130px;
+  /*font-family: 'Nanum Gothic', sans-serif;*/
+  color:#333333;
+  font-size:14px;
+  box-sizing:border-box;
+}
+
+.hidden {
+  display:none;
+}
+
+a {
+  color:#333333;
+  text-decoration: none;
+}
+
+.container {
+  position:relative;
+  width:1200px;
+  margin:0 auto;
+}
+
+
+
+img {
+  vertical-align:top;
+}
+
+
+
+
+
+
+/* header 영역 */
+header {
+  background:url(../img/back_repeat01.jpg) repeat-x;
+  width:100%;
+  min-width:1000px;
+  height:130px;
+  border-bottom:solid 1px #ccc;
+  box-shadow:0px 1px 3px #cccccc;
+  position:fixed;
+  z-index: 10000;
+  transition: top 0.1s ease-in-out;
+  top:0;
+}
+
+.nav-up {
+  top:-60px;
+  box-shadow:none;
+}
+
+
+.logo {
+  background:url(../img/back_repeat02.jpg) repeat-x;
+  width:60%;
+  text-align:center;
+  margin:0 auto;
+  padding-top:25px;
+  z-index:9999;
+}
+
+
+.util_menu {
+  position:absolute;
+  right:0;
+  top:20px;
+  padding-right:30px;
+}
+.util_menu ul li {
+  float:left;
+  margin-left:10px;
+}
+.util_menu ul li a {
+  color:#666;
+}
+
+
+.navi {
+  position:absolute;
+  top:80px;
+  width:100%;
+  font-size:20px;
+  font-weight: 600;
+}
+.navi .left li {
+  float:left;
+  padding:0 30px;
+  padding-bottom:20px;
+}
+.navi .right li {
+  float:right;
+  padding:0 30px;
+  padding-bottom:20px;
+}
+.navi .left > li > a:hover,.navi .right > li > a:hover {
+  display:inline-block;
+  height:36px;
+  border-bottom:solid 4px #ed1c24;
+  color:#ed1c24;
+}
+
+
+.navi .submenu {
+  display: none;
+  position:absolute;
+  background:#fff;
+  top:40px;
+  left:0;
+  width:100%;
+  height:50px;
+  line-height:3em;
+  font-size:16px;
+  font-weight: normal;
+  border-bottom:solid 1px #ccc;
+}
+
+.navi li:hover ul {
+  display: inline-block;
+  width:100%;
+  border-top:solid 1px #ccc;
+}
+
+
+
+
+
+
+
+
+/* contents 영역 */
+#contents {
+  width:100%;
+}
+
+.title {
+  padding-top:80px;
+  width:100%;
+  text-align:center;
+  font-size:28px;
+  font-weight:600;
+}
+
+.midtitle {
+  color:#666;
+  width:100%;
+  text-align:center;
+  margin-top:20px;
+}
+
+
+
+
+
+
+
+
+
+/* footer 영역 */
+footer {
+  clear:both;
+  background:#eeeeee;
+  width:100%;
+  height:220px;
+  border:solid 1px #eeeeee;
+}
+footer li {
+  font-weight: 600;
+  float:left;
+  margin:0 10px;
+  font-size:16px;
+}
+footer ul {
+  width:80%;
+  margin:40px auto;
+}
+footer .txt {
+  padding:40px;
+}
+footer p {
+  width:100%;
+  margin-top:10px;
+  text-align: center;
+  color:#999999;
+}
+
+
+
+
