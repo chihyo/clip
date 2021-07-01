@@ -1,4 +1,4 @@
-# clip
+# clip asd
 
 1. 웹호스팅 URL : slayerwolf.pe.kr/web
 2. 모바일웹 호스팅 URL : slayerwolf.pe.kr/app
